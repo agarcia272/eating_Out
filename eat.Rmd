@@ -61,3 +61,5 @@ table1 <- xtabs(~race + eatout, data=mydata)
 rowPerc(table1)
 colPerc(table1)
 ```
+
+This table shows that white people eat out about 83.11 percent then the other races.
