@@ -63,3 +63,24 @@ colPerc(table1)
 ```
 
 This table shows that white people eat out about 83.11 percent then the other races.
+
+# Results
+
+#Inferential 
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+Chi-squared test shows that the p-vaule is 0.000002287
+
+```{r}
+fisherXY(mydata$race,mydata$eatout)
+```
+
+
+
+
+
