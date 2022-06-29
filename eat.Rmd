@@ -54,4 +54,10 @@ barchartGC(~race + eatout,data=mydata, type="percent")
 ```
 
 
+## Numerical summary
 
+```{r}
+table1 <- xtabs(~race + eatout, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
