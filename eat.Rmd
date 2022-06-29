@@ -41,9 +41,17 @@ So we used CAT~CAT
 
 Inference: Chi-square and fisher excat tests
 
-## Descriptive summaries
+# Descriptive summaries
 
 ## Graphical summary
+
+## barchart
+
+```{r}
+barchartGC(~race + eatout,data=mydata)
+barchartGC(~race + eatout,data=mydata, type="percent")
+
+```
 
 
 
