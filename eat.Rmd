@@ -32,10 +32,18 @@ mydata <- select(GSS,race,age,eatout)
 mydata <- na.omit(mydata)
 ```
 
+## Methods
 
+response variable is categorical: dine out last week? yes or no
 
+Explanatory variable is race, it too is a categorical variable.  
+So we used CAT~CAT
 
+Inference: Chi-square and fisher excat tests
 
+## Descriptive summaries
+
+## Graphical summary
 
 
 
