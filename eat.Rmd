@@ -87,7 +87,8 @@ The odd ratio between white and other races is 1.9 more then likely to eat out.
 
 ## Conclusion
 
-In conclusion there is a difference between at least two races with the frequency of eating out. 
+In conclusion we rejected the null hypothesis because the p-value 0.000002287, this is too small of a number. According to the date there is a statistical difference between at least two races with the frequency of eating out. Which is white race has a higher percentage then black and other races.
+
 
 
 
