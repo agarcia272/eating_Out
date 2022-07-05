@@ -39,7 +39,7 @@ response variable is categorical: dine out last week? yes or no
 Explanatory variable is race, it too is a categorical variable.  
 So we used CAT~CAT
 
-Inference: Chi-square and fisher excat tests
+Inference: Chi-square and fisher exact tests
 
 # Descriptive summaries
 
@@ -52,7 +52,7 @@ barchartGC(~race + eatout,data=mydata)
 barchartGC(~race + eatout,data=mydata, type="percent")
 
 ```
-
+According to the chart white people eat out more then black and other races. 80 percent of white people said yes to eating out. Less then 20 percent said no.
 
 ## Numerical summary
 
@@ -64,9 +64,9 @@ colPerc(table1)
 
 This table shows that white people eat out about 83.11 percent then the other races.
 
-# Results
+## Results
 
-#Inferential 
+## Inferential
 
 ```{r}
 chisq.test(table1)
@@ -79,7 +79,10 @@ Chi-squared test shows that the p-vaule is 0.000002287
 ```{r}
 fisherXY(mydata$race,mydata$eatout)
 ```
+There is no difference among the various races with frequency of eating out  
+$H_A$ There is a statistical difference between at least two races with the frequency of eating out  
 
+In conclusion there is a difference between at least two races with the frequency of eating out. 
 
 
 
