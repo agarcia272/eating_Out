@@ -64,9 +64,9 @@ colPerc(table1)
 
 This table shows that white people eat out about 83.11 percent then the other races.
 
-## Results
+# Results
 
-## Inferential
+# Inferential
 
 ```{r}
 chisq.test(table1)
@@ -80,6 +80,12 @@ Therefore we reject the null hypothesis because the p-value is so small that if 
 ```{r}
 fisherXY(mydata$race,mydata$eatout)
 ```
+
+According to the chart there is no significant difference in frequency of eating out between black and other races because the p-vaule is very small.
+The odds ratio is 2.2 between white and black race, they are twice likely to eat out then black races.
+The odd ratio between white and other races is 1.9 more then likely to eat out.
+
+## Conclusion
 
 In conclusion there is a difference between at least two races with the frequency of eating out. 
 
